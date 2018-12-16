@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Visualization</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+  
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  
+  <!-- Latest compiled and minified JavaScript -->
+  
+
+</head>
+  <body>
+  <!-- Creates the Overall Grid -->
+    <div class="container">
+    <header>
+      <nav class="navbar navbar-default navbar-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                
+                <div class="navbar-header">
+                <a class="navbar-brand" href="index.html" class="btn btn-success" role="button" aria-pressed="true">Latitude</a>
+                </div><!--navbar-header-->
+              </div><!--container-fluid-->
+            </nav><!--navbar navbar-default-->
+          </div><!--navbar-header-->   
+          <div class="collapse navbar-collapse" id="collapse"> 
+         
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a target="_blank" href="Comparison.html">Comparison</a></li>
+              <li><a target="_blank" href="data.html">Data</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a target="_blank" href="TempMax.html">Temperature</a></li>
+                  <li><a target="_blank" href="Humidity.html">Humidity</a></li>
+                  <li><a target="_blank" href="Cloudliness.html">Cloudiness</a></li>
+                  <li><a href="Wind_Speed.html">Wind Speed </a></li>
+                </ul><!--dropdown-menu-->
+              </li><!--dropdown-->
+            </ul><!--dropdown-menu-->
+          </div> <!--collapse navbar-collapse-->
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav><!--navbar navbar-default navbar-top-->
+  </header>
+
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Comparison:  Latitude vs. Temperature</h2>
+      </div><!--col-md-6-->
+    </div><!--row-->
+
+    <!-- Row 2 -->
+    <div class="row">
+    <div class="container">
+      <div class="col-md-6">
+        <div class="item"><img src="assets/Images/temperaturemap.png" class="img-rounded img-responsive" alt="Temperature">
+        </div><!--Images-->
+      </div><!--col-md-6-->
+      
+    <div class="col-md-6">
+        <p>
+          <strong>Latitude is the most important factor that influences climate.</strong>  
+          <br>
+          <br>
+
+          To help explain the values in the chart, the lower latitudes have significantly warmer temperature. These locations are nearer the equator and enjoy equally long days year long and the sun is just about directly overhead at midday.  
+          <br> 
+          <br>
+          
+          Whereas, cities located the furthest from the equator (the higher latitudes) receive lower amounts of solar radiation.  At the poles, the sun never rises very high in the sky. The sunlight is also filtered through a thick wedge of atmosphere, making the sunlight much less intense.    
+          <br>
+      
+          </p>
+
+    </div><!--col-md-6-->
+  </div><!--container-->
+</div><!--row 2-->
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+    
+</html>
+
